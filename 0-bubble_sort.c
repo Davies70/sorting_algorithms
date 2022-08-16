@@ -1,16 +1,16 @@
 #include "sort.h"
 
 /**
- * swap: swap array elements
+ * swap - swap array elements
  * @xp: ptr to array element
  * @yp: prt to array element
  * Return: void
  */
 void swap(int *xp, int *yp)
 {
-  int temp = *xp;
-  *xp = *yp;
-  *yp = temp;
+	int temp = *xp;
+	*xp = *yp;
+	*yp = temp;
 }
 
 /**
